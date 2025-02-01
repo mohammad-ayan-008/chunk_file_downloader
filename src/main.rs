@@ -18,6 +18,7 @@ fn main(){
         for handler in data  {
             let _ = handler.join().unwrap();
         }
+
         println!("\ndone");
     }
 }
